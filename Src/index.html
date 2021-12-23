@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+<body>
+    <form action="">
+        <h2>Adicionar Nota</h2>
+        <fieldset>
+            <label for="titulo">Titulo</label>
+            <input type="text" id='titulo'>
+        </fieldset>
+        <fieldset>
+            <label for="texto">Texto</label>
+            <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+        </fieldset>
+        <button>Adicionar</button>
+    </form>
+    
+    <div id='anotacoes'>
+
+       
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="./Js/Controller/anotacoes-controller.js"></script>
+    <script src="./Js/Model/anotacoes-model.js"></script>
+    <script src="./Js/View/anotacoes-view.js"></script>
+    <script src="./Js/main.js"></script>
+</body>
+</html>
